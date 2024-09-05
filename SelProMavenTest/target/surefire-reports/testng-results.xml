@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-05T14:47:54 IST" name="Suite" finished-at="2024-09-05T14:47:54 IST" duration-ms="77">
+    <groups>
+    </groups>
+    <test started-at="2024-09-05T14:47:54 IST" name="Test" finished-at="2024-09-05T14:47:54 IST" duration-ms="77">
+      <class name="pac1.ContactTest">
+        <test-method signature="createContactTest()[pri:0, instance:pac1.ContactTest@418e7838]" started-at="2024-09-05T14:47:54 IST" name="createContactTest" finished-at="2024-09-05T14:47:54 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method signature="modifyContactTest()[pri:0, instance:pac1.ContactTest@418e7838]" started-at="2024-09-05T14:47:54 IST" name="modifyContactTest" finished-at="2024-09-05T14:47:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyContactTest -->
+      </class> <!-- pac1.ContactTest -->
+      <class name="pac2.OrgTest">
+        <test-method signature="createOrgTest()[pri:0, instance:pac2.OrgTest@2e4b8173]" started-at="2024-09-05T14:47:54 IST" name="createOrgTest" finished-at="2024-09-05T14:47:54 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgTest -->
+        <test-method signature="modifyOrgTest()[pri:0, instance:pac2.OrgTest@2e4b8173]" started-at="2024-09-05T14:47:54 IST" name="modifyOrgTest" finished-at="2024-09-05T14:47:54 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyOrgTest -->
+      </class> <!-- pac2.OrgTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
