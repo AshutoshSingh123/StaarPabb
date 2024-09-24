@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-24T11:11:40 IST" name="Default suite" finished-at="2024-09-24T11:12:10 IST" duration-ms="30494">
+    <groups>
+      <group name="regressionTest">
+        <method signature="ThirdPartyTest.createThirdParty()[pri:0, instance:com.staar.modules.thirdparty.ThirdPartyTest@45c7e403]" name="createThirdParty" class="com.staar.modules.thirdparty.ThirdPartyTest"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="ThirdPartyTest.createThirdParty()[pri:0, instance:com.staar.modules.thirdparty.ThirdPartyTest@45c7e403]" name="createThirdParty" class="com.staar.modules.thirdparty.ThirdPartyTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2024-09-24T11:11:40 IST" name="Default test" finished-at="2024-09-24T11:12:10 IST" duration-ms="30494">
+      <class name="com.staar.modules.thirdparty.ThirdPartyTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.staar.modules.thirdparty.ThirdPartyTest@45c7e403]" started-at="2024-09-24T11:11:40 IST" name="beforeSuite" finished-at="2024-09-24T11:11:40 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.staar.modules.thirdparty.ThirdPartyTest@45c7e403]" started-at="2024-09-24T11:11:40 IST" name="beforeClass" finished-at="2024-09-24T11:11:58 IST" duration-ms="18247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.staar.modules.thirdparty.ThirdPartyTest@45c7e403]" started-at="2024-09-24T11:11:59 IST" name="beforeMethod" finished-at="2024-09-24T11:12:03 IST" duration-ms="4504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createThirdParty()[pri:0, instance:com.staar.modules.thirdparty.ThirdPartyTest@45c7e403]" started-at="2024-09-24T11:12:03 IST" name="createThirdParty" finished-at="2024-09-24T11:12:09 IST" duration-ms="5798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createThirdParty -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.staar.modules.thirdparty.ThirdPartyTest@45c7e403]" started-at="2024-09-24T11:12:09 IST" name="afterMethod" finished-at="2024-09-24T11:12:09 IST" duration-ms="610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.staar.modules.thirdparty.ThirdPartyTest@45c7e403]" started-at="2024-09-24T11:12:09 IST" name="afterClass" finished-at="2024-09-24T11:12:10 IST" duration-ms="792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.staar.modules.thirdparty.ThirdPartyTest@45c7e403]" started-at="2024-09-24T11:12:10 IST" name="afterSuite" finished-at="2024-09-24T11:12:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.staar.modules.thirdparty.ThirdPartyTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

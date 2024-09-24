@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+	<run>
+		<include name="regressionTest"/>
+	</run>
+</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.staar.modules.thirdparty.ThirdPartyTest"/>
+      <class name="com.staar.modules.commerce.CommerceModuleTest"/>
+      <class name="com.staar.modules.services.ModifyShipmentAndSendMailTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="3">
+  <test name="Test-1">
+    <classes>
+      <class name="com.staar.modules.thirdparty.ThirdPartyTest"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="Test-2">
+    <classes>
+       <class name="com.staar.modules.commerce.CommerceModuleTest"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="Test-3">
+    <classes>
+      <class name="com.staar.modules.services.ModifyShipmentAndSendMailTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
