@@ -1,6 +1,5 @@
 package com.vtiger.crm.generic.fileutility;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 
 import org.json.simple.JSONObject;
